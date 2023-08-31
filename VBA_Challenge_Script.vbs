@@ -141,21 +141,23 @@ Sub Stocks():
           
             ws.Cells(OutputTable, 11).NumberFormat = "0.00%"
          
-         'Conditional Formatting for Percent Change Column
          
-         'Select Case PercentChange
+	'Conditional Formatting for Percent Change Column
          
-         'Case Is >= 0
-          '   ws.Cells(OutputTable, 11).Interior.ColorIndex = 4
-         '
-         'Case Is < 0
-          '   ws.Cells(OutputTable, 11).Interior.ColorIndex = 3
+         Select Case PercentChange
          
-         'Case Else
-          '   ws.Cells(OutputTable, 11).Interior.ColorIndex = 0
-         '
-         'End Select
+         Case Is >= 0
+             ws.Cells(OutputTable, 11).Interior.ColorIndex = 4
          
+         Case Is < 0
+            ws.Cells(OutputTable, 11).Interior.ColorIndex = 3
+         
+         Case Else
+         	  ws.Cells(OutputTable, 11).Interior.ColorIndex = 0
+         
+         End Select
+        
+ 
          
          
         '____Summarize the table required values______
