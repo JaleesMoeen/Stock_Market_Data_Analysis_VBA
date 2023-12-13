@@ -1,12 +1,12 @@
-# VBA_challenge
+# Stock_Market_Analysis_VBA
  VBA_Scripting_Multiyear_Stock_Data
 
- # Welcome to Stock Data Analysis Project
+ # Welcome to Stock Market Data Analysis 
 
 
 # Introduction
 
-- It is the VBA Challenge Project for which I write scripts to implement conditonal formating, relative calculations and summary for getting the highest increases, decreases and total stock volume for each provided year data i.e. 2018, 2019 and 2020.
+- I wrote scripts to implement conditonal formating, relative calculations and summary for getting the highest increases, decreases and total stock volume for each provided year data i.e. 2018, 2019 and 2020.
 
 - This scripts works and execute successfully for all the sheets in the provided workbook.
 
